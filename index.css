@@ -16,10 +16,16 @@
 }
 main{
     margin:0;
-    background-color:#f38585;
+    background-color:#ffffff;
+}
+.sec1{padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 h1{
-    font-size: 100px!important;
+    font-size: 80px!important;
     text-align: center;
 }
 h2{
@@ -31,13 +37,14 @@ h2{
     justify-content:space-between;
     padding: 15px;
     align-items: center;
+    gap: 2rem;
 }
 h3{
-    text-align:right;
+    text-align:justify;
 }
 img{flex: initial;
-    width: 30rem;
-    height: 30rem;
+    width: 25rem;
+    height: 25rem;
     border-radius: 1000px;
     
 }
