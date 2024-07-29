@@ -5,9 +5,11 @@
     margin: 0!important;
     padding: 0;
     box-sizing: border-box;
+    color: #ffffff;
     
 
 }
+header{background-color: #265973;}
 .navbar-collapse{
     display: flex;
     justify-content: flex-end;
@@ -19,6 +21,7 @@ main{
     background-color:#ffffff;
 }
 .sec1{padding: 4rem;
+    background-color: #000F1F;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +36,7 @@ h2{
     font-size: 60px!important;
 }
 .div1{
+    background-color:#000F1F;
     display: flex;
     justify-content:space-between;
     padding: 15px;
@@ -51,4 +55,7 @@ img{flex: initial;
 .habi{margin: 0;
     line-height: 1,3;
     text-align: center;
+}
+.div2{
+    background-color:#265973 ;
 }
