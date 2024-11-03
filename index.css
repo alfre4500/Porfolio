@@ -1,11 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 
 * {
-  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+html,
 body {
-  margin: 0;
+  overflow-x: hidden;
+}
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra de scroll */
+}
+
+::-webkit-scrollbar-track {
+  background: #919194; /* Color de fondo de la pista de la barra */
+  border-radius: 10px; /* Bordes redondeados en el track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #666666; /* Color del deslizador */
+  border-radius: 10px; /* Bordes redondeados en el deslizador */
+  border: 3px solid #919194; /* Espacio entre el deslizador y el track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4d4d4d; /* Color del deslizador al pasar el cursor */
+}
+
+body {
   font-family: sans-serif;
   color: #1e1e1e;
   background: white;
@@ -20,9 +44,10 @@ img {
 }
 .wrapper {
   position: relative;
-  height: 600px;
+  height: 800px;
 }
 .header {
+  margin: 0;
   position: fixed;
   width: 100%;
   height: 80px;
@@ -34,6 +59,7 @@ img {
   perspective: 1000px;
 }
 .header .logo-container {
+  margin-left: 0;
   width: 100px;
   height: auto;
   margin-left: 50px;
@@ -111,8 +137,8 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  height: 600px;
-  background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
+  height: 100vh;
+  background-image: url("./multi/Leonardo_Kino_XL_A_striking_minimalist_design_featuring_a_deep_0.jpg");
   background-position: center;
   background-size: cover;
   transition: all 0.1s ease 0s;
@@ -124,14 +150,17 @@ img {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .banner-wrapper-fixed .foreground h1 {
   text-align: center;
   color: white;
-  margin-top: 250px;
   font-size: 50px;
   padding: 0px 30px;
 }
+
 .heading {
   padding: 20px 0px;
   font-size: 40px;
