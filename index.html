@@ -1,110 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="index.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <title>Document</title>
   </head>
   <body>
-    <div class="L-tewelve">
-      <div class="row">
-        <header class="header">
-          <div class="logo-container">
-           <img src="./multi/icons8-home-96.png" alt="" srcset="">
-            <span class="toggle-btn">&#9776;</span>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="home-icon">⌂</a>
+        <div class="nav-links">
+          <a href="#" class="nav-item">PROYECTOS</a>
+          <a href="#" class="nav-item">HABILIDADES</a>
+          <a href="#" class="nav-item">CURSOS</a>
+          <a href="#" class="nav-item">CONTACTO</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="primeraparte">
+        <div class="unoa">
+          <h1>Alfredo Agüero Ortiz</h1>
+          <p>
+            Me apasiona crear interfaces que impactan, con el plus de entender
+            todo el proceso de desarrollo.
+          </p>
+          <div class="titular">
+            <img
+              src="./multi/IMG_20230810_220312_402.jpg"
+              class="fotito"
+              alt=""
+              srcset=""
+            />
+            <p class="minititular">DESARROLLADOR FULLSTACK</p>
           </div>
-          <ul class="display-none-mobile">
-            <li><a href="#about">Sobre mí</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#projects">Proyectos</a></li>
-            <li><a href="#courses">Cursos</a></li>
-            <li><a href="#contact">Contacto</a></li>
-          </ul>
-        </header>
-        <div class="banner-wrapper-fixed">
-          <div class="banner-wrapper-fixed">
-            <div class="profile-container">
-              <img src="./multi/IMG_20230810_220312_402.jpg" alt="Alfredo Agüero" class="profile-image">
-              <h1 class="profile-text">Alfredo Agüero Ortiz<br><span style="font-size: 0.7em;">Desarrollador FullStack</span></h1>
-            </div>
+        </div>
+        <div class="dosa">
+          <h3>Donde encontrarme</h3>
+          <div class="icons-wrapper">
+            <img
+              src="./multi/icons8-linkedin-50 (1).png"
+              class="icon-item"
+              alt="linkedin"
+            />
+            <img src="./multi/icons8-github-50.png" class="icon-item" alt="github" />
+            <img src="./multi/icons8-email-50.png" class="icon-item" alt="email" />
+            <a href="https://wa.me/+5492646246625" target="_blank">
+              <img
+                src="./multi/icons8-whatsapp-50.png"
+                class="icon-item"
+                class="icon-item"
+                alt="whatapp"
+              />
+            </a>
           </div>
-        <div class="wrapper"></div>
-      </div>
-    </div>
-    <div class="L-tewelve">
-      <div class="row">
-        <div class="section">
-          <section id="about" class="section">
-            <h1 class="heading">Sobre mí</h1>
-            <p>
-              Soy un desarrollador FullStack en constante aprendizaje, actualmente cursando la Tecnicatura en Programación en la Universidad Nacional de San Juan. Me considero curioso, autodidacta y comprometido con la calidad en mi trabajo.
-            </p>
-          </section>
-      
-          <section id="skills" class="section">
-            <h1 class="heading">Habilidades</h1>
-            <ul>
-              <li>HTML, CSS, JavaScript, React</li>
-              <li>SASS, MongoDB, MySQL, NodeJS</li>
-              <li>Java, Angular, C</li>
-              <li>Git & GitHub, Trello, Canva, Figma, Notion, Framer</li>
-            </ul>
-          </section>
-      
-          <section id="projects" class="section">
-            <h1 class="heading">Proyectos</h1>
-            <ul>
-              <li><strong>Golf Paradise</strong> - E-commerce con JAVA y VUE JS</li>
-              <li><strong>Mindbank</strong> - Página de Homebanking con Spring y VUE JS</li>
-              <li><strong>Mindhub E-commerce</strong> - E-commerce grupal con VUE JS</li>
-              <li><strong>Amazing Events</strong> - Aplicación de eventos con VUE JS</li>
-            </ul>
-          </section>
-      
-          <section id="courses" class="section">
-            <h1 class="heading">Cursos</h1>
-            <div class="course-cards">
-              <div class="card">
-                <img src="https://www.credly.com/badges/8d05851a-a5fe-4d6b-a876-ed6cc25ff8be/linked_in_profile" alt="Certificación UX de Google" />
-                <p>Diseño UX - Google</p>
-              </div>
-              <div class="card">
-                <img src="https://production-egg-certificates.s3.amazonaws.com/AlfredoAgueroOrtiz/ProgramacionWebdesdeCero/thumbnail_34772968ff5a0efcdef343d8eb2cb86abb281c260269f543c4821268559159d6.jpeg" alt="Certificación de Programación desde cero" />
-                <p>Programación desde cero - Egg Cooperation</p>
-              </div>
-            </div>
-          </section>
-      
-          <section id="contact" class="section">
-            <h1 class="heading">Contacto</h1>
-            <p>Teléfono: +54 264 2646625</p>
-            <p>Email: <a href="mailto:alfreagor@gmail.com">alfreagor@gmail.com</a></p>
-            <p>San Juan, Argentina</p>
-          </section>
-      
-          <footer>
-            <p>Made with <span class="heart">&hearts;</span> by Alfredo Agüero Ortiz</p>
-          </footer>
-      </div>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script src="index.js"></script>
+        </div>
+      </section>
+      <section class="segundaparte">
+        <h2>Proyectos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis earum quae incidunt labore expedita illo nam beatae fuga voluptatum tempora veniam iste, ex sed suscipit voluptatem doloremque, porro reiciendis?
+        Quasi in necessitatibus aspernatur inventore, quia nostrum id! Perferendis in ratione officiis voluptas dolorum laboriosam ducimus sed delectus veniam nesciunt dignissimos consequuntur quia voluptatum deserunt reprehenderit natus fugiat, obcaecati quidem.
+        Quia et repellat unde voluptatem! Rem quod velit natus, iste delectus recusandae. Dicta a sint maiores officiis repellendus minima possimus quae, praesentium eos aperiam quas facere voluptatum similique ea hic.
+        Pariatur sed incidunt rerum necessitatibus ratione magni consequatur obcaecati libero nesciunt mollitia odit eius, expedita ea temporibus, esse at id placeat quas. Dolorem similique at tempora nobis cupiditate, suscipit eaque.
+        Illum ad aliquam, corrupti qui, odit aliquid soluta modi maxime, ipsam vitae illo ea sapiente voluptates mollitia repellat? Esse iste tenetur mollitia culpa iure quis dicta pariatur maiores qui molestias?
+        Quidem quisquam eum corrupti corporis libero quas inventore consectetur ipsam expedita vel laudantium voluptate accusamus qui ipsa explicabo unde, maxime ullam? Error dicta, mollitia voluptas iusto ad eligendi. Quod, ea.
+        Iusto ratione aut quod quisquam dignissimos praesentium enim minima libero architecto ipsa. Consectetur, omnis. Officia non itaque vitae ab totam. Dolor architecto dolore, repellat cupiditate quidem qui suscipit exercitationem dolores.
+        Tempora a nesciunt repellendus amet harum iste, aliquam esse ad perferendis animi impedit laudantium quisquam, neque error libero? Rerum quibusdam esse sunt ea. Officia sit, dolores voluptatum illum praesentium quasi.
+        Doloribus, facilis. Tempore corrupti saepe deleniti illo! Doloribus quam aperiam, maiores iusto dolore odit rem eum. Unde ipsa ducimus sint et dolore nobis quis eos non, aut iure illum maxime.
+        Explicabo quidem tenetur commodi eius, similique incidunt exercitationem nulla ipsam unde maiores voluptatum adipisci iure velit quasi recusandae fuga impedit neque pariatur laudantium eum id? Obcaecati laborum debitis quisquam saepe!
+        Voluptatum exercitationem beatae officia cum voluptas corrupti inventore. Dolor ex unde quas modi harum cum! Laborum voluptatum nesciunt qui assumenda, nihil, illo ullam tempora consectetur, consequatur quas iure quae nam?
+        Delectus, autem quia saepe ratione minima eos porro accusamus sed accusantium voluptate vero iste! Doloribus earum nihil quos tempora, ratione eum enim perferendis dolorum quas nemo minus doloremque cupiditate laborum.
+        Soluta blanditiis obcaecati ex eaque, perspiciatis, iusto suscipit corporis labore esse commodi molestiae sequi velit maiores natus rem ratione, repellendus dolores animi delectus ab harum. Minima fugiat deleniti rerum eum.
+        Vero quisquam, est molestiae, accusantium architecto ipsa autem excepturi quibusdam, veniam voluptatibus eveniet? Quos laudantium aliquam cum, possimus temporibus vel quibusdam amet qui perferendis aut accusamus voluptatibus repellat repellendus nam.
+        Cum officia voluptatum consequuntur voluptatem voluptatibus ducimus mollitia qui quisquam. Illo temporibus nemo minima! Fugiat libero nam, obcaecati quas praesentium id error, animi dolorum, aspernatur excepturi mollitia enim quibusdam in.
+        Harum in id repellendus laborum numquam aut velit sapiente eius, exercitationem, nam veritatis dolores est accusamus a cum! Dolor in perferendis harum neque deleniti inventore molestiae maxime voluptates, esse dolorum.
+        Cupiditate deserunt asperiores esse exercitationem sed error repudiandae amet maiores modi illo architecto doloremque labore fuga quis distinctio fugit, accusantium facere quas nobis quisquam nam. Quo maxime eum doloribus cum?
+        Quod ipsa doloribus ducimus, facilis tenetur voluptate amet enim dignissimos consequatur dolorem nisi explicabo quam. Quidem reprehenderit, nostrum error recusandae, ipsum amet dolorum aliquam possimus id perspiciatis ea ex rerum?
+        Doloribus eos facilis, eligendi ad culpa molestiae velit asperiores porro similique, repudiandae voluptatem eum iusto ea dicta autem aliquam excepturi minus qui soluta laudantium. Dolorum nihil cum officiis illo! Odit!
+        Officia quam architecto, in explicabo quae dolorem ipsa nostrum. Obcaecati rerum ab ratione similique tempora iure odit officia vero unde. Excepturi voluptatibus aliquam pariatur ea, delectus quibusdam reprehenderit repellat dicta!</p>
+      </section>
+    </main>
   </body>
 </html>
