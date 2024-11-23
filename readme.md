@@ -34,18 +34,8 @@ Este es mi espacio personal donde muestro mis proyectos y habilidades como desar
 
 ## 📫 Contacto
 
-- Email: [tu@email.com]
-- LinkedIn: [tu perfil]
-- GitHub: [tu perfil]
+- Email: [alfreagor@gmail.com]
+- LinkedIn: [https://www.linkedin.com/in/alfredoagortiz/]
+- GitHub: [https://github.com/alfre4500]
 - Portfolio: [enlace a tu sitio web]
 
-## 🌟 Contribuciones
-
-¿Tienes alguna sugerencia? ¡Las contribuciones son bienvenidas! No dudes en:
-1. Hacer fork del proyecto
-2. Crear una rama para tus cambios
-3. Enviar un pull request
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia [Nombre de la licencia] - consulta el archivo LICENSE.md para más detalles.
