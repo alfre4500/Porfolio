@@ -125,9 +125,6 @@ body.dark-theme .primeraparte {
 }
 
 /* Segunda parte en modo oscuro */
-body.dark-theme .segundaparte {
-  background-color: rgba(26, 26, 26, 0.9);
-}
 
 /* Iconos sociales en modo oscuro */
 body.dark-theme .icon-item {
@@ -298,25 +295,14 @@ body {
 body {
   scrollbar-color: rgb(242, 242, 236);
   scrollbar-width: 20px;
-  background: rgb(239, 239, 233);
-  background: linear-gradient(
-    0deg,
-    rgba(239, 239, 233, 1) 0%,
-    rgba(249, 248, 243, 1) 50%,
-    rgba(239, 239, 233, 1) 100%
-  );
+  background: white;
   padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
     sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 body.dark-theme {
-  background: linear-gradient(
-    0deg,
-    rgba(26, 26, 26, 1) 0%,
-    rgba(35, 35, 35, 1) 50%,
-    rgba(26, 26, 26, 1) 100%
-  );
+  background: black;
   color: #ffffff;
 }
 
@@ -359,9 +345,6 @@ body.dark-theme .primeraparte {
 }
 
 /* Segunda parte en modo oscuro */
-body.dark-theme .segundaparte {
-  background-color: rgba(26, 26, 26, 0.9);
-}
 
 /* Iconos sociales en modo oscuro */
 body.dark-theme .icon-item {
@@ -456,12 +439,12 @@ main {
 
 /* Estilos para el modo oscuro */
 body.dark-theme {
-  background-color: #1a1a1a;
+  background-color: #000000;
   color: #ffffff;
 }
 
 body.dark-theme .navbar {
-  background-color: #2d2d2d;
+  background-color: #000000;
 }
 
 body.dark-theme .theme-btn .light-mode {
@@ -479,11 +462,7 @@ body.dark-theme .lang-btn {
 
 body.dark-theme .theme-btn:hover,
 body.dark-theme .lang-btn:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.navbar:has(.nav-item:hover),
-.navbar:has(.home-icon:hover) {
+  background-color: rgb(29, 28, 28);
 }
 
 .nav-links {
@@ -500,13 +479,10 @@ body.dark-theme .lang-btn:hover {
   justify-content: center;
 }
 
-
 .navbar:has(.nav-item:hover) .home-icon:not(:hover),
 .navbar:has(.home-icon:hover) .home-icon:not(:hover) {
   background-color: transparent;
 }
-
-
 
 .nav-item {
   text-decoration: none;
@@ -652,7 +628,6 @@ h3 {
   display: flex;
   position: relative;
   z-index: 2;
-  background: rgb(239, 239, 233);
   padding-top: 40px;
   flex-direction: column;
 }
@@ -932,8 +907,8 @@ h2 {
   color: black;
 }
 .card img {
-width: 40%;
-height: fit-content;
+  width: 40%;
+  height: fit-content;
   object-fit: contain;
 }
 
@@ -947,12 +922,16 @@ height: fit-content;
 }
 /*Card de proyecto*/
 .project {
+  height: 80vh;
   background-color: #fff;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 2rem;
   border-radius: 8px;
   text-align: center;
+  position: relative;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform-origin: center;
 }
 
 .project h2 {
@@ -975,18 +954,19 @@ height: fit-content;
 }
 
 /*Animaciones*/
-.autoshow{
+.autoshow {
   font-family: "Playfair Display", serif;
   font-size: 60px;
   padding: 20px;
   animation: autoshow both;
-  animation-timeline:view();
+  animation-timeline: view();
 }
-@keyframes autoshow{
-  from{
+@keyframes autoshow {
+  from {
     opacity: 0;
     transform: translateY(200px) scale(0.3);
-  }to {
+  }
+  to {
     opacity: 1;
     transform: translateY(0) scale(1);
   }

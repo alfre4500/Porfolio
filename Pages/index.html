@@ -12,6 +12,7 @@
     />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Alfredo Agüero Ortiz</title>
   </head>
   <body>
@@ -140,30 +141,36 @@
           </div>
         </div>
       </section>
-      <h2 class="habi">Habilidades</h2>
+      <h2 class="autoshow">Habilidades</h2>
       <section class="terceraparte">
         <div class="habilidadescontenedor2">
-          <div class="card">
+          <div  class="card "
+          data-aos="fade-up"
+          data-aos-duration="3000">
             <h3>HTML</h3>
             <img src="../multi/icons8-html-144.png" alt="">
           </div>
-          <div class="card">
+          <div class="card"  data-aos="fade-up"
+          data-aos-duration="3000">
             <h3>CSS</h3>
-     <img src="../multi/icons8-css-240.png" alt="">
+            <img src="../multi/icons8-css-240.png" alt="">
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up"
+          data-aos-duration="3000">
             <h3>JavaScript</h3>
-            <p>Programación y lógica de negocio</p>
+            <img src="../multi/icons8-js-240.png">
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up"
+          data-aos-duration="3000">
             <h3>React</h3>
-            <p>Desarrollo de interfaces de usuario</p>
+         <img src="../multi/icons8-react-40.png" >
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up"
+          data-aos-duration="3000">
             <h3>Node.js</h3>
-            <p>Desarrollo de servidores y APIs</p>
+          <img src="../multi/icons8-node-js-96 (1).png" >
           </div>
-          <div class="card">
+          <div class="card" >
             <h3>MySQL</h3>
             <p>Administración de bases de datos</p>
           </div>
@@ -186,5 +193,10 @@
       </section>
     </main>
     <script src="../Script/index.js"></script>
+    <script src="../Script/card.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
