@@ -952,6 +952,15 @@ h2 {
   border-radius: 4px;
   font-size: 0.9rem;
 }
+/*CERTIFICADOS*/
+.ordencerti{
+  width: 80%;
+  border: 1PX SOLID yellow;
+  height: 90VH;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
 
 /*Animaciones*/
 .autoshow {
