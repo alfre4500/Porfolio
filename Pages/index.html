@@ -11,6 +11,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <meta charset="UTF-8">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Alfredo Agüero Ortiz</title>
@@ -32,9 +36,10 @@
       <nav class="navbar">
         <p  class="home-icon"> </p>
         <div class="nav-links">
+          <a href="#" class="nav-item">INICIO</a>
           <a href="#proyectos" class="nav-item">PROYECTOS</a>
           <a href="#" class="nav-item">HABILIDADES</a>
-          <a href="#" class="nav-item">CURSOS</a>
+          <a href="#" class="nav-item">CERTIFICADOS</a>
         </div>
         <div class="nav-buttons">
           <button class="theme-btn" aria-label="Cambiar tema">
@@ -48,12 +53,18 @@
       </nav>
     </header>
     <main>
+      <video class="bg-video light-video" autoplay muted loop>
+        <source src="../multi/9809279-hd_1920_1080_30fps.mp4" type="video/mp4">
+      </video>
+      <video class="bg-video dark-video" autoplay muted loop>
+        <source src="../multi/videoplayback (1).webm" type="video/mp4">
+      </video>
       <section class="primeraparte">
         <div class="unoa">
-          <h1 class="animate__animated animate__fadeInLeft">
-            Alfredo Agüero Ortiz
+          <h1 >
+           <span class="gradient">Alfredo Agüero Ortiz</span>  
           </h1>
-          <p class="animate__animated animate__fadeInUp">
+          <p >
             Me apasiona crear interfaces que impactan, con el plus de entender
             todo el proceso de desarrollo.
           </p>
@@ -102,111 +113,307 @@
           </div>
         </div>
       </section>
-      <section class="segundaparte" >
-        <h2 class="autoshow">Proyectos</h2>
-        <div class="project">
-          <h2>Proyecto 3</h2>
-          <p>Aplicación móvil para seguimiento de hábitos y establecimiento de metas personales.</p>
-          <div class="tech-stack">
-            <span>React Native</span>
-            <span>Firebase</span>
+      <section class="my-projects">
+        <h2 class="section-title autoshow">Mis Projectos</h2>
+        <div class="project-card">
+          <div class="project-vidbox autoBlur">
+            <video id="projectVideo1" src="../multi/project1.mp4"></video>
+            <div class="hover-sign"></div>
           </div>
-          <div class="actions">
-            <a href="#" class="view-project">Ver Proyecto</a>
-            <a href="#" class="view-code">Ver Código</a>
-          </div>
-        </div>
-        <div class="project">
-          <h2>Proyecto 3</h2>
-          <p>Aplicación móvil para seguimiento de hábitos y establecimiento de metas personales.</p>
-          <div class="tech-stack">
-            <span>React Native</span>
-            <span>Firebase</span>
-          </div>
-          <div class="actions">
-            <a href="#" class="view-project">Ver Proyecto</a>
-            <a href="#" class="view-code">Ver Código</a>
+          <div class="project-info">
+            <h1>Project <span class="gradient">1</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              magni nemo voluptate voluptatum, atque aliquid dignissimos?
+            </p>
+            <button><i class="bx bx-link-external"> Website</i></button>
           </div>
         </div>
-        <div class="project">
-          <h2>Proyecto 3</h2>
-          <p>Aplicación móvil para seguimiento de hábitos y establecimiento de metas personales.</p>
-          <div class="tech-stack">
-            <span>React Native</span>
-            <span>Firebase</span>
+        <div class="project-card">
+          <div class="project-vidbox">
+            <video id="projectVideo2" src="videos/project2.mp4"></video>
           </div>
-          <div class="actions">
-            <a href="#" class="view-project">Ver Proyecto</a>
-            <a href="#" class="view-code">Ver Código</a>
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              magni nemo voluptate voluptatum, atque aliquid dignissimos?
+            </p>
+            <button><i class="bx bx-link-external"> Website</i></button>
           </div>
         </div>
-      </section>
-      <h2 class="autoshow">Habilidades</h2>
-      <section class="terceraparte">
-        <div class="habilidadescontenedor2">
-          <div  class="card "
-          data-aos="fade-up"
-          data-aos-duration="3000">
-            <h3>HTML</h3>
-            <img src="../multi/icons8-html-144.png" alt="">
+        <div class="project-card">
+          <div class="project-vidbox">
+            <video id="projectVideo3" src="videos/project3.mp4"></video>
           </div>
-          <div class="card"  data-aos="fade-up"
-          data-aos-duration="3000">
-            <h3>CSS</h3>
-            <img src="../multi/icons8-css-240.png" alt="">
-          </div>
-          <div class="card" data-aos="fade-up"
-          data-aos-duration="3000">
-            <h3>JavaScript</h3>
-            <img src="../multi/icons8-js-240.png">
-          </div>
-          <div class="card" data-aos="fade-up"
-          data-aos-duration="3000">
-            <h3>React</h3>
-         <img src="../multi/icons8-react-40.png" >
-          </div>
-          <div class="card" data-aos="fade-up"
-          data-aos-duration="3000">
-            <h3>Node.js</h3>
-          <img src="../multi/icons8-node-js-96 (1).png" >
-          </div>
-          <div class="card" data-aos="fade-up"
-          data-aos-duration="3000" >
-            <h3>Sass</h3>
-           <img src="../multi/icons8-sass-144.png">
-          </div>
-          <div class="card" data-aos="fade-up"
-          data-aos-duration="3000">
-            <h3>Java</h3>
-            <img src="../multi/icons8-java-144.png">
-          </div>
-          <div class="card" data-aos="fade-up"
-          data-aos-duration="3000">
-            <h3>Mongo Db</h3>
-        <img src="../multi/icons8-mongo-db-96.png">
-          </div>
-          <div class="card" data-aos="fade-up"
-          data-aos-duration="3000">
-            <h3>Git</h3>
- <img src="../multi/icons8-git-96.png">
-          </div>
-          <div class="card" data-aos="fade-up"
-          data-aos-duration="3000">
-            <h3>Figma</h3>
-       <img src="../multi/icons8-figma-96.png">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              magni nemo voluptate voluptatum, atque aliquid dignissimos?
+            </p>
+            <button><i class="bx bx-link-external"> Website</i></button>
           </div>
         </div>
       </section>
-      <section class="cuartaparte">
-        <h2>Certificados</h2>
-        <div class="ordencerti">
-
+      <section class="skills-container">
+        <div class="section-title">
+            <h2>Mis Habilidades</h2>
+            <p>Tecnologías y herramientas que domino como desarrollador fullstack</p>
         </div>
-      </section>
+        
+        <div class="skill-category">
+            <h3 class="category-title">Frontend</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="skill-name">HTML5</div>
+                    <div class="skill-description">Estructura semántica y accesibilidad</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="skill-name">CSS3</div>
+                    <div class="skill-description">Diseño responsive y animaciones</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-description">ES6+ y manipulación del DOM</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="skill-name">React</div>
+                    <div class="skill-description">Hooks, Context API y Redux</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-vuejs"></i>
+                    </div>
+                    <div class="skill-name">Vue.js</div>
+                    <div class="skill-description">Componentes y Vuex</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-sass"></i>
+                    </div>
+                    <div class="skill-name">SASS</div>
+                    <div class="skill-description">Preprocesado CSS avanzado</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skill-category">
+            <h3 class="category-title">Backend</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="skill-name">Node.js</div>
+                    <div class="skill-description">Express y arquitectura RESTful</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <div class="skill-name">PHP</div>
+                    <div class="skill-description">Laravel y Symfony</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="skill-name">MySQL</div>
+                    <div class="skill-description">Diseño y optimización de BD</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="skill-name">MongoDB</div>
+                    <div class="skill-description">Bases de datos NoSQL</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="skill-name">Python</div>
+                    <div class="skill-description">Django y Flask</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="skill-name">Firebase</div>
+                    <div class="skill-description">Firestore y Authentication</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skill-category">
+            <h3 class="category-title">DevOps & Herramientas</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="skill-name">Git</div>
+                    <div class="skill-description">Control de versiones y GitHub</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <div class="skill-name">Docker</div>
+                    <div class="skill-description">Contenedores y orquestación</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="skill-name">AWS</div>
+                    <div class="skill-description">S3, EC2, Lambda</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <div class="skill-name">CI/CD</div>
+                    <div class="skill-description">Jenkins y GitHub Actions</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="skill-name">React Native</div>
+                    <div class="skill-description">Desarrollo móvil multiplataforma</div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="blue-smoke-effect"></div>
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="skill-name">Webpack</div>
+                    <div class="skill-description">Bundling y optimización</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="certificates-container">
+      <div class="section-title">
+          <h2>Mis Certificados</h2>
+          <p>Certificaciones y cursos completados</p>
+      </div>
+      <div class="certificates-grid">
+          <div class="certificate-card" data-full-image="../path/to/git-github-certificate.jpg">
+              <div class="certificate-thumbnail">
+                  <img src="../path/to/git-github-thumbnail.jpg" alt="Git and GitHub Foundations Certificate">
+                  <div class="certificate-overlay">
+                      <h3>Bases de Git, GITHUB</h3>
+                      <p>Plataforma: Desafío Latam</p>
+                      <span class="certificate-details">Fundamentos de control de versiones</span>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="certificate-card" data-full-image="../path/to/web-programming-certificate.jpg">
+              <div class="certificate-thumbnail">
+                  <img src="../path/to/web-programming-thumbnail.jpg" alt="Web Programming Introduction Certificate">
+                  <div class="certificate-overlay">
+                      <h3>Introducción a la Programación Web</h3>
+                      <p>Plataforma: Desafío Latam</p>
+                      <span class="certificate-details">Fundamentos de desarrollo web</span>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="certificate-card" data-full-image="../path/to/web-finalization-certificate.jpg">
+              <div class="certificate-thumbnail">
+                  <img src="../path/to/web-finalization-thumbnail.jpg" alt="Web Programming Finalization Certificate">
+                  <div class="certificate-overlay">
+                      <h3>Certificado de Finalización Web</h3>
+                      <p>Plataforma: Desafío Latam</p>
+                      <span class="certificate-details">Culminación de programa web</span>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="certificate-card" data-full-image="../path/to/cisco-course-completion.jpg">
+              <div class="certificate-thumbnail">
+                  <img src="../path/to/cisco-course-completion-thumbnail.jpg" alt="Cisco Course Completion Certificate">
+                  <div class="certificate-overlay">
+                      <h3>Cisco Course Completion</h3>
+                      <p>Plataforma: Cisco Networking Academy</p>
+                      <span class="certificate-details">Networking fundamentals</span>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="certificate-card" data-full-image="../path/to/cisco-achievement.jpg">
+              <div class="certificate-thumbnail">
+                  <img src="../path/to/cisco-achievement-thumbnail.jpg" alt="Cisco Statement of Achievement">
+                  <div class="certificate-overlay">
+                      <h3>Cisco Statement of Achievement</h3>
+                      <p>Plataforma: Cisco Networking Academy</p>
+                      <span class="certificate-details">Advanced networking concepts</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Modal for full certificate view -->
+      <div class="certificate-modal">
+          <div class="certificate-modal-content">
+              <span class="certificate-modal-close">&times;</span>
+              <img src="" alt="Full Certificate" class="certificate-modal-image">
+          </div>
+      </div>
+  </section>
     </main>
     <script src="../Script/index.js"></script>
     <script src="../Script/card.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
     <script>
       AOS.init();
     </script>
