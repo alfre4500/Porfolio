@@ -6,7 +6,7 @@ window.addEventListener("scroll", () => {
 
   // Efecto parallax para los elementos
   if (primeraparte.getBoundingClientRect().bottom > 0) {
-    unoa.style.transform = `translateY(${scrolled * 0.3}px)`;
+    unoa.style.transform = `translateY(${scrolled * 0.1}px)`;
     dosa.style.transform = `translateY(${scrolled * 0.2}px)`;
     primeraparte.style.opacity = 1 - scrolled * 0.002;
   }

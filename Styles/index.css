@@ -37,7 +37,7 @@ body {
   scrollbar-color: rgb(242, 242, 236);
   scrollbar-width: 20px;
   background: var(--white);
-  padding: 20px;
+  padding: 0 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
   cursor: url("../multi/puntero.png"), auto;
@@ -56,18 +56,18 @@ header {
   justify-content: center;
 }
 
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
 
 .navbar {
-  width: 70%;
-  margin-top: 20px;
+  width: 75%;
+  margin: 10px auto 0 auto;
   position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Cambiá de center a space-between */
   align-items: center;
   border-radius: 15px;
   background-color: var(--white);
@@ -75,10 +75,12 @@ header {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
+
+
 .nav-buttons {
   display: flex;
   gap: 10px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .theme-btn,
@@ -109,13 +111,15 @@ header {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
+  margin-right: 160px;
+  gap: 5px;
 }
 
 .nav-group {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
   width: 100%;
   justify-content: center;
 }
@@ -186,6 +190,7 @@ body.dark-theme .theme-btn .dark-mode {
 
 /* Main Content */
 main {
+  padding-top: 0px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -214,17 +219,21 @@ main {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  width: 100%;
-  height: 36%;
+  width: 90%;
+  height: 46%;
   transition: transform 0.1s ease-out;
   will-change: transform;
+  
+}
+.unoa h1 {
+  font-size: 70px; /* en lugar de 100px */
+  line-height: 1.1;
 }
 
 h1 {
   font-weight: normal;
   font-family: "Playfair Display", serif;
   color: #030525;
-  font-size: 100px;
   text-align: center;
   letter-spacing: 0.5px;
   line-height: 85%;
@@ -233,15 +242,24 @@ h1 {
 p {
   font-family: "Playfair Display", serif;
   color: var(--dark-text);
-  font-size: 30px;
+  font-size: 22px;
+   max-width: 80%;
+  margin: 0 auto;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+.slogan {
+  font-size: 22px;
+  font-style: italic;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
 .fotito {
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
+   width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
 
 .minititular,
