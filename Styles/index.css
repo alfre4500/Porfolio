@@ -269,6 +269,7 @@ h3 {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  margin-top: 20px;
   width: 80%;
   transition: transform 0.1s ease-out;
   will-change: transform;
@@ -703,6 +704,7 @@ body.dark-theme .project-vidbox:hover video {
 
 .project-info p {
   width: 90%;
+  font-size: 15px;
   max-width: 400px;
   min-width: 300px;
   margin-bottom: 50px;
